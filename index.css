@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: min-content 1fr min-content 1fr min-content;
+}
+
+.location {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.der {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.film {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.date-time {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
