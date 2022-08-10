@@ -1,4 +1,4 @@
 # der-film
-A version of der Film by Jen Simmons that centers the title vertically and does not use "display: contents".
+A version of der Film by Jen Simmons. Modifications include centering the title vertically and not using "display: contents".
 
 Original: https://labs.jensimmons.com/2017/02-004.html
